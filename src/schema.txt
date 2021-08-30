@@ -1,0 +1,14 @@
+SCHEDULE SCHEMA
+{
+  "schedule":
+    [{
+      schedulecode: 1,
+      title: "Test Lecture",
+      startTime: 8,
+      duration: 1;
+      platform: "gmeet",
+      code: "https://meet.google.com/abc-defg-hij",
+      days: ["monday", "tuesday"]
+    },
+    ...]
+}

@@ -55,6 +55,13 @@
   color: var(--bs-yellow);
 }
 
+.aftercopy{
+  background-color: var(--tuesday);
+  color: white;
+  box-shadow: 0px 0px 3px var(--bs-green);
+  opacity: 0;
+}
+
 .gobtn{
   color: var(--bs-white);
 }
@@ -232,6 +239,32 @@
 .blink {
   animation: blinker 0.5s linear infinite;
   color: var(--wednesday);
+}
+
+.copied{
+  animation: copied 3s linear;
+}
+
+@keyframes copied {
+  0% {
+    bottom: 0%;
+    opacity: 0;
+  }
+
+  5% {
+    bottom: 85%;
+    opacity: 1;
+  }
+
+  50% {
+    bottom: 85%;
+    opacity: 1;
+  }
+
+  100% {
+    bottom: 85%;
+    opacity: 0;
+  }
 }
 
 @keyframes blinker {

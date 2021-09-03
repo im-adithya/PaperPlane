@@ -16,10 +16,10 @@
 
 ## Features
 
-• Login instantly with Google Sign-In
-• Colorful (Google-inspired) UI to set your schedule
-• Redirect to your scheduled meet using a single link
-• View your upcoming lectures on the home screen
+- Login instantly with Google Sign-In
+- Colorful (Google-inspired) UI to set your schedule
+- Redirect to your scheduled meet using a single link
+- View your upcoming lectures on the home screen
 
 ## How to Contribute?
 

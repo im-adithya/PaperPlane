@@ -12,7 +12,7 @@
 </p>
 <p align="center">Set yur schedule and fly on your Paper Plane!</p>
 
-<p align="center">Try it out <a href="https://paper-planeee.web.app/">here!</a> 🩸</p>
+<p align="center">Try it out <a href="https://paper-planeee.web.app/">here!</a>✈</p>
 
 ## Features
 

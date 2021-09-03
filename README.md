@@ -1,5 +1,5 @@
 <p align="center">
-   <img src="https://github.com/im-adithya/PaperPlane/blob/master/src/assets/cover.png?raw=true">
+   <img src="/src/assets/cover.jpg?raw=true">
 </p>
 
 <h1 align="center">Paper Plane</h1>

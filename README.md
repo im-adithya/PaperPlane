@@ -10,9 +10,9 @@
     <img src="https://img.shields.io/github/stars/im-adithya/PaperPlane?style=flat&logo=reverbnation&color=yellow&logoColor=white">
     <img src="https://img.shields.io/github/license/im-adithya/PaperPlane?style=flat&logo=read-the-docs&color=orange&logoColor=white">
 </p>
-<p align="center">Set yur schedule and fly on your Paper Plane!</p>
+<p align="center">Set your schedule and fly on your Paper Plane. Forget bookmarking!</p>
 
-<p align="center">Try it out <a href="https://paper-planeee.web.app/">here!</a>✈</p>
+<p align="center">Try it out <a href="https://paper-planeee.web.app/">here! ✈</a></p>
 
 ## Features
 

@@ -10,12 +10,12 @@ const RedirectPopup = ({ className, destination, close }) => {
 
   useEffect(() => {
     setTimeout(() => {
-      setTimeLeft(timeLeft - 1);
+      setTimeLeft(timeLeft ? timeLeft - 1 : timeLeft);
     }, 1000);
     setTimeout(() => {
       setRedirect(true);
     }, 5000);
-    if (redirect && open) window.location.href = destination.code;
+    if (redirect && open) window.location = destination.code;
   });
 
   return (
@@ -45,7 +45,9 @@ const RedirectPopup = ({ className, destination, close }) => {
             <Button
               variant="primary"
               onClick={() => {
-                window.location.href = destination.code;
+                setOpen(false);
+                close(false);
+                window.location = destination.code;
               }}
             >
               Go Now!

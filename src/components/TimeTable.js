@@ -38,7 +38,7 @@ const TimeTable = () => {
           cId
         }
         onClick={() => {
-          if (rId > 0 && cId > 0) {
+          if (rId > 0 && cId > 0 && !child) {
             setRow(rId);
             setCol(cId);
             setDest(!dest);

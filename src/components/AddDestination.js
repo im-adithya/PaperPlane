@@ -13,6 +13,8 @@ import title from "../assets/title-icon.svg";
 import link from "../assets/link-icon.svg";
 import repeat from "../assets/repeat-icon.svg";
 import cross from "../assets/cross-icon.svg";
+import up from "../assets/arrow-up.svg";
+import down from "../assets/arrow-down.svg";
 
 import meetlogo from "../assets/gmeetlogo.svg";
 import zoomlogo from "../assets/zoomlogo.svg";
@@ -245,9 +247,11 @@ const AddDestination = ({
               >
                 {destinationStartTime}:00 -{" "}
                 {destinationStartTime + destinationDuration}:00
-                <div className="d-flex align-items-center">
-                  <span
-                    className="headline-7"
+                <div className="ml-2 d-flex flex-column justify-content-between">
+                  <Image
+                    src={up}
+                    width="8px"
+                    className="mb-1 pointer"
                     onClick={() =>
                       setDestinationDuration(
                         destinationStartTime + destinationDuration === 21
@@ -255,19 +259,19 @@ const AddDestination = ({
                           : destinationDuration + 1
                       )
                     }
-                  >
-                    +
-                  </span>
-                  <span
-                    className="headline-7"
+                  />
+                  <Image
+                    src={down}
+                    width="8px"
+                    className="mt-1 pointer"
                     onClick={() =>
                       setDestinationDuration(
-                        destinationDuration === 1 ? 1 : destinationDuration - 1
+                        destinationDuration === 1
+                          ? destinationDuration
+                          : destinationDuration - 1
                       )
                     }
-                  >
-                    -
-                  </span>
+                  />
                 </div>
               </Col>
             </Row>

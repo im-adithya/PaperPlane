@@ -14,6 +14,14 @@
 
 <p align="center">Try it out <a href="https://paper-planeee.web.app/">here! ✈</a></p>
 
+
+## How It Works
+
+- First, you set your schedule by clicking on the tabs
+- Then click on save to store your weekly schedule
+- Now you'll get a single link that can get you anywhere 
+- As the time of the meeting is stored, the link can redirect you to the correct meeting without any hassle!
+
 ## Features
 
 - Login instantly with Google Sign-In

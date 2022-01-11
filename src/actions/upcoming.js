@@ -13,5 +13,5 @@ export const upcoming = (schedule, today) => {
       }
     }
   }
-  return result.splice(0, 3).sort((a, b) => a.startTime - b.startTime);
+  return result.sort((a, b) => a.startTime - b.startTime).splice(0, 3);
 };
